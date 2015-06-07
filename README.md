@@ -2,8 +2,15 @@
 
 仿照当前支付宝等软件的主流做的简单的支付界面
 # 使用方法:
- 1.创建LLINputPassWordView对象,实现LLINputPassWordViewDelegate代理方法<br /> 
-2.show和dismiss方法用于显示和隐藏密码输入框
+` 1.创建LLINputPassWordView对象,实现LLINputPassWordViewDelegate代理方法<br /> 
+2.show和dismiss方法用于显示和隐藏密码输入框`
+<br /> 
+2015-6-7日更新:
+<br /> 
+1.代理改为Block方法
+<br /> 
+2.加入输入金额的判断
+
   
 # 注意:
 1 .这里没有做销毁处理  <br />
