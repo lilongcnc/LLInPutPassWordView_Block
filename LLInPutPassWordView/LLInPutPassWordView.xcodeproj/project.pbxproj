@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBC26F21B2484B100A56B2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC26F11B2484B100A56B2A /* main.m */; };
+		FDBC26F51B2484B100A56B2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC26F41B2484B100A56B2A /* AppDelegate.m */; };
+		FDBC26FD1B2484B100A56B2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBC26FC1B2484B100A56B2A /* Images.xcassets */; };
+		FDBC27001B2484B100A56B2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDBC26FE1B2484B100A56B2A /* LaunchScreen.xib */; };
+		FDBC270C1B2484B100A56B2A /* LLInPutPassWordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC270B1B2484B100A56B2A /* LLInPutPassWordViewTests.m */; };
+		FDBC271E1B24864E00A56B2A /* cannel.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBC27161B24864E00A56B2A /* cannel.png */; };
+		FDBC271F1B24864E00A56B2A /* LLCover.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC27181B24864E00A56B2A /* LLCover.m */; };
+		FDBC27201B24864E00A56B2A /* LLINputPassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC271A1B24864E00A56B2A /* LLINputPassWordView.m */; };
+		FDBC27211B24864E00A56B2A /* LLINputPassWordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDBC271B1B24864E00A56B2A /* LLINputPassWordView.xib */; };
+		FDBC27221B24864E00A56B2A /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBC271C1B24864E00A56B2A /* submit.png */; };
+		FDBC27231B24864E00A56B2A /* submit_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBC271D1B24864E00A56B2A /* submit_1.png */; };
+		FDBC27261B24866600A56B2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBC27251B24866600A56B2A /* ViewController.m */; };
+		FDBC27281B24867000A56B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBC27271B24867000A56B2A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDBC27061B2484B100A56B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBC26E41B2484B100A56B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBC26EB1B2484B100A56B2A;
+			remoteInfo = LLInPutPassWordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDBC26EC1B2484B100A56B2A /* LLInPutPassWordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLInPutPassWordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBC26F01B2484B100A56B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBC26F11B2484B100A56B2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDBC26F31B2484B100A56B2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDBC26F41B2484B100A56B2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDBC26FC1B2484B100A56B2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDBC26FF1B2484B100A56B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDBC27051B2484B100A56B2A /* LLInPutPassWordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLInPutPassWordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBC270A1B2484B100A56B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBC270B1B2484B100A56B2A /* LLInPutPassWordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLInPutPassWordViewTests.m; sourceTree = "<group>"; };
+		FDBC27161B24864E00A56B2A /* cannel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannel.png; sourceTree = "<group>"; };
+		FDBC27171B24864E00A56B2A /* LLCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCover.h; sourceTree = "<group>"; };
+		FDBC27181B24864E00A56B2A /* LLCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCover.m; sourceTree = "<group>"; };
+		FDBC27191B24864E00A56B2A /* LLINputPassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLINputPassWordView.h; sourceTree = "<group>"; };
+		FDBC271A1B24864E00A56B2A /* LLINputPassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLINputPassWordView.m; sourceTree = "<group>"; };
+		FDBC271B1B24864E00A56B2A /* LLINputPassWordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLINputPassWordView.xib; sourceTree = "<group>"; };
+		FDBC271C1B24864E00A56B2A /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
+		FDBC271D1B24864E00A56B2A /* submit_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit_1.png; sourceTree = "<group>"; };
+		FDBC27241B24866600A56B2A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDBC27251B24866600A56B2A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDBC27271B24867000A56B2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBC26E91B2484B100A56B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBC27021B2484B100A56B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBC26E31B2484B100A56B2A = {
+			isa = PBXGroup;
+			children = (
+				FDBC26EE1B2484B100A56B2A /* LLInPutPassWordView */,
+				FDBC27081B2484B100A56B2A /* LLInPutPassWordViewTests */,
+				FDBC26ED1B2484B100A56B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBC26ED1B2484B100A56B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC26EC1B2484B100A56B2A /* LLInPutPassWordView.app */,
+				FDBC27051B2484B100A56B2A /* LLInPutPassWordViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBC26EE1B2484B100A56B2A /* LLInPutPassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC27151B24864E00A56B2A /* InputPDView */,
+				FDBC26F31B2484B100A56B2A /* AppDelegate.h */,
+				FDBC26F41B2484B100A56B2A /* AppDelegate.m */,
+				FDBC27241B24866600A56B2A /* ViewController.h */,
+				FDBC27251B24866600A56B2A /* ViewController.m */,
+				FDBC27271B24867000A56B2A /* Main.storyboard */,
+				FDBC26FC1B2484B100A56B2A /* Images.xcassets */,
+				FDBC26FE1B2484B100A56B2A /* LaunchScreen.xib */,
+				FDBC26EF1B2484B100A56B2A /* Supporting Files */,
+			);
+			path = LLInPutPassWordView;
+			sourceTree = "<group>";
+		};
+		FDBC26EF1B2484B100A56B2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC26F01B2484B100A56B2A /* Info.plist */,
+				FDBC26F11B2484B100A56B2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDBC27081B2484B100A56B2A /* LLInPutPassWordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC270B1B2484B100A56B2A /* LLInPutPassWordViewTests.m */,
+				FDBC27091B2484B100A56B2A /* Supporting Files */,
+			);
+			path = LLInPutPassWordViewTests;
+			sourceTree = "<group>";
+		};
+		FDBC27091B2484B100A56B2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC270A1B2484B100A56B2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDBC27151B24864E00A56B2A /* InputPDView */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC27161B24864E00A56B2A /* cannel.png */,
+				FDBC27171B24864E00A56B2A /* LLCover.h */,
+				FDBC27181B24864E00A56B2A /* LLCover.m */,
+				FDBC27191B24864E00A56B2A /* LLINputPassWordView.h */,
+				FDBC271A1B24864E00A56B2A /* LLINputPassWordView.m */,
+				FDBC271B1B24864E00A56B2A /* LLINputPassWordView.xib */,
+				FDBC271C1B24864E00A56B2A /* submit.png */,
+				FDBC271D1B24864E00A56B2A /* submit_1.png */,
+			);
+			path = InputPDView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBC26EB1B2484B100A56B2A /* LLInPutPassWordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBC270F1B2484B100A56B2A /* Build configuration list for PBXNativeTarget "LLInPutPassWordView" */;
+			buildPhases = (
+				FDBC26E81B2484B100A56B2A /* Sources */,
+				FDBC26E91B2484B100A56B2A /* Frameworks */,
+				FDBC26EA1B2484B100A56B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLInPutPassWordView;
+			productName = LLInPutPassWordView;
+			productReference = FDBC26EC1B2484B100A56B2A /* LLInPutPassWordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBC27041B2484B100A56B2A /* LLInPutPassWordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBC27121B2484B100A56B2A /* Build configuration list for PBXNativeTarget "LLInPutPassWordViewTests" */;
+			buildPhases = (
+				FDBC27011B2484B100A56B2A /* Sources */,
+				FDBC27021B2484B100A56B2A /* Frameworks */,
+				FDBC27031B2484B100A56B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBC27071B2484B100A56B2A /* PBXTargetDependency */,
+			);
+			name = LLInPutPassWordViewTests;
+			productName = LLInPutPassWordViewTests;
+			productReference = FDBC27051B2484B100A56B2A /* LLInPutPassWordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBC26E41B2484B100A56B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Lauren;
+				TargetAttributes = {
+					FDBC26EB1B2484B100A56B2A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FDBC27041B2484B100A56B2A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FDBC26EB1B2484B100A56B2A;
+					};
+				};
+			};
+			buildConfigurationList = FDBC26E71B2484B100A56B2A /* Build configuration list for PBXProject "LLInPutPassWordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDBC26E31B2484B100A56B2A;
+			productRefGroup = FDBC26ED1B2484B100A56B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBC26EB1B2484B100A56B2A /* LLInPutPassWordView */,
+				FDBC27041B2484B100A56B2A /* LLInPutPassWordViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDBC26EA1B2484B100A56B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBC27281B24867000A56B2A /* Main.storyboard in Resources */,
+				FDBC27231B24864E00A56B2A /* submit_1.png in Resources */,
+				FDBC27001B2484B100A56B2A /* LaunchScreen.xib in Resources */,
+				FDBC271E1B24864E00A56B2A /* cannel.png in Resources */,
+				FDBC27221B24864E00A56B2A /* submit.png in Resources */,
+				FDBC26FD1B2484B100A56B2A /* Images.xcassets in Resources */,
+				FDBC27211B24864E00A56B2A /* LLINputPassWordView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBC27031B2484B100A56B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBC26E81B2484B100A56B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBC26F51B2484B100A56B2A /* AppDelegate.m in Sources */,
+				FDBC271F1B24864E00A56B2A /* LLCover.m in Sources */,
+				FDBC27201B24864E00A56B2A /* LLINputPassWordView.m in Sources */,
+				FDBC26F21B2484B100A56B2A /* main.m in Sources */,
+				FDBC27261B24866600A56B2A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBC27011B2484B100A56B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBC270C1B2484B100A56B2A /* LLInPutPassWordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDBC27071B2484B100A56B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBC26EB1B2484B100A56B2A /* LLInPutPassWordView */;
+			targetProxy = FDBC27061B2484B100A56B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDBC26FE1B2484B100A56B2A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBC26FF1B2484B100A56B2A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDBC270D1B2484B100A56B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDBC270E1B2484B100A56B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBC27101B2484B100A56B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLInPutPassWordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDBC27111B2484B100A56B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLInPutPassWordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDBC27131B2484B100A56B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LLInPutPassWordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLInPutPassWordView.app/LLInPutPassWordView";
+			};
+			name = Debug;
+		};
+		FDBC27141B2484B100A56B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LLInPutPassWordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLInPutPassWordView.app/LLInPutPassWordView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBC26E71B2484B100A56B2A /* Build configuration list for PBXProject "LLInPutPassWordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBC270D1B2484B100A56B2A /* Debug */,
+				FDBC270E1B2484B100A56B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBC270F1B2484B100A56B2A /* Build configuration list for PBXNativeTarget "LLInPutPassWordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBC27101B2484B100A56B2A /* Debug */,
+				FDBC27111B2484B100A56B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDBC27121B2484B100A56B2A /* Build configuration list for PBXNativeTarget "LLInPutPassWordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBC27131B2484B100A56B2A /* Debug */,
+				FDBC27141B2484B100A56B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBC26E41B2484B100A56B2A /* Project object */;
+}
